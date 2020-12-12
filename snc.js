@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html lang="en"
+      dir="ltr">
+  <head>
+    <title>Google Developers</title>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="iframe" content="standalone">
+    
+    
+    <script nonce="0JohMgN6bzBvHJ5E+nl1rMIhZF6wOr">
+      (function(){
+        window.framebox=window.framebox||function(){(window.framebox.q=window.framebox.q||[]).push(arguments)};
+        
+        var a={},b=function(){(window.framebox.dq=window.framebox.dq||[]).push(arguments)};
+        ['getUrl','handleLinkClicksInParent','initAutoSize','navigate','pushState','replaceState',
+         'requestQueryAndFragment','sendEvent','updateSize'].forEach(function(x){a[x]=function(){
+          b(x,arguments)}});
+        window.devsite={framebox:{AutoSizeClient:a}};
+      })();
+      
+      (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+        t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+        E.parentNode.insertBefore(t,E);})(window, document, 'script',
+        'https://www.gstatic.com/devrel-devsite/prod/vf7e3a995d426e05d42b78fc7d21a14329a91016dc065dc22c480cc8f443ef33e/developers/js/app_loader.js', '[1,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/vf7e3a995d426e05d42b78fc7d21a14329a91016dc065dc22c480cc8f443ef33e","https://www.gstatic.com/devrel-devsite/prod/vf7e3a995d426e05d42b78fc7d21a14329a91016dc065dc22c480cc8f443ef33e/developers","https://developers-dot-devsite-v2-prod.appspot.com",null,1,null,1,null,[1,6,8,12,14,17,21,25,40,50,63,70,75,76,80,87,88,91,92,93,97,98,100,101,102,103,105,107,111,115,116]]')
+      
+      </script>
+    
+  </head>
+  
+  <body >
+    <html>
+<head>
+  <meta name="google-signin-client_id" content="351360855136-c65vr13tal2in9b9m1hdmp5dgr4rie3l.apps.googleusercontent.com">
+</head>
+<!-- [START body] -->
+<body>
+  <script>
+    function onSuccess(googleUser) {
+      console.log('Signed in as: ' + googleUser.getBasicProfile().getName());
+      alert('ok')
+    }
+  </script>
+  <div class="g-signin2" data-onsuccess="onSuccess"></div>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+<!-- [END body] -->
+</html>
+
+  </body>
+</html>
